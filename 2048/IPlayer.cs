@@ -1,8 +1,8 @@
 namespace _2048
 {
-    public interface IPlayer
-    {
-        string GetPlayerType();
-        Direction GetMove(Game game);
-    }
+	public interface IPlayer
+	{
+		string PlayerType { get; }
+		Direction GetMove(Game game);
+	}
 }
